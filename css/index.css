@@ -235,7 +235,7 @@ section h2 {
 .formulario h3 {
   margin-bottom: 20px;
   color: var(--morado-oscuro);
-  align: center;
+  align-items: center;
 }
 
 .formulario form {
