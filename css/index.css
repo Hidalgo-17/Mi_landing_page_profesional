@@ -361,7 +361,7 @@ footer {
   display: grid;
   grid-template-columns:repeat(3,1fr);
   grid: 30%
-  margin: top 20px;
+  margin-top: 30%
 
 }
 
