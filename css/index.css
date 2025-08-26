@@ -25,7 +25,7 @@
 
 body {
   font-family: var(--fuente-principal);
-  background: var(--lila);
+  background: var(--rosado);
   color: var(--texto);
   line-height: 1.6;
 }
@@ -362,7 +362,7 @@ footer {
     /* Esto crea 3 columnas que se adaptan al espacio disponible */
     grid-template-columns: repeat(3, 1fr);
     /* Espacio entre las imágenes */
-    gap: 20px;
+    gap: 10px;
 }
 
 .gallery-grid img {
