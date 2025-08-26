@@ -359,6 +359,7 @@ footer {
 /* GALERÍA */
 .gallery-grid {
   display: grid;
+  grid-template-columns: repeat(3, 1fr);
   margin-top: 20px;
 }
 
