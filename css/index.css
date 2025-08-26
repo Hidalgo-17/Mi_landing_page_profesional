@@ -359,8 +359,6 @@ footer {
 /* GALERÍA */
 .gallery-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 imágenes por fila */
-  gap: 15px;
   margin-top: 20px;
 }
 
@@ -374,5 +372,5 @@ footer {
 }
 
 .gallery-grid img:hover {
-  transform: scale(1.05);
+  transform: scale(0.5);
 }
