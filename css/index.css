@@ -156,7 +156,7 @@ section h2 {
 }
 
 .mission h2, .vision h2 {
-  color: var(--morado-oscuro);
+  color: var(--rosado);
   margin-bottom: 15px;
   font-size: 1.8rem;
 }
@@ -190,7 +190,7 @@ section h2 {
 }
 
 .service-card h3 {
-  color: var(--morado-oscuro);
+  color: var(--rosado);
   margin-bottom: 10px;
 }
 
