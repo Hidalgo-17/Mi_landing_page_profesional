@@ -60,14 +60,45 @@
     </section>
 
     <!-- Sección de Contacto -->
-    <section id="contacto" class="contact">
-      <div class="container">
-        <h2 class="section-title">Contacto</h2>
-        <div class="contact-container">
-          <div class="formulario-google">
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfs-3zHhWVKNHugyoysPzwEBNcvK1FowGAwwMEEuHe-xphIeg/viewform?embedded=true" width="100%" height="955" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
-          </div>
-        </div>
+    <!-- Formulario de Reservas -->
+    <section class="formulario container">
+      <h3>Reserva en línea</h3>
+      <form action="#" method="post">
+        <label for="nombre">👤 Nombre completo:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+
+        <label for="email">📧 Correo electrónico:</label>
+        <input type="email" id="email" name="email" placeholder="ejemplo@email.com" required>
+
+        <label for="personas">👥 Número de personas:</label>
+        <input type="number" id="personas" name="personas" min="1" max="20" required>
+
+        <label for="fecha">📅 Fecha:</label>
+        <input type="date" id="fecha" name="fecha" required>
+
+        <label for="plan">☕ Plan:</label>
+        <select id="plan" name="plan" required>
+          <option value="">-- Selecciona un plan --</option>
+          <option value="clay">Clay & Chill</option>
+          <option value="brunch">Brunch & Brush</option>
+          <option value="familiar">Plan Familiar / Friends</option>
+          <option value="pareja">Plan en Pareja</option>
+          <option value="individual">Plan Individual</option>
+        </select>
+
+        <button type="submit" class="btn-reserva">Confirmar Reserva</button>
+      </form>
+    </section>
+
+    <!-- Contacto directo -->
+    <section class="direct-contact container">
+      <h3>Reserva por WhatsApp</h3>
+      <a href="https://wa.me/573000000000" target="_blank" class="btn-whatsapp">📲 Escríbenos por WhatsApp</a>
+      <div class="socials">
+        <p>Síguenos en redes:</p>
+        <a href="#">📸 Instagram</a> | 
+        <a href="#">🎶 TikTok</a> | 
+        <a href="#">📘 Facebook</a>
       </div>
     </section>
   </main>
