@@ -79,6 +79,7 @@ nav {
   align-items: center;
   justify-content: center;
   text-align: center;
+  
   background: linear-gradient(135deg, var(--rosado), var(--azul));
 }
 
