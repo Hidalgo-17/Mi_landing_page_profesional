@@ -364,7 +364,7 @@ footer {
 }
 
 .gallery-grid img {
-  width: 30%;
+  width: 100px;
   height: 250x;
   object-fit:cover;   /* recorta para que se vea ordenada */
   border-radius: 10px;
