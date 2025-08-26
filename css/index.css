@@ -360,8 +360,6 @@ footer {
 .gallery-grid {
   display: grid;
   grid-template-columns:repeat(3, 1fr);
-  grid: 100px
-  margin-top: 100px
   gap:10px
 }
 
