@@ -358,18 +358,24 @@ footer {
 
 /* GALERÍA */
 .gallery-grid {
-  display: grid;
-  grid-template-columns:repeat(3, 1fr);
-  gap:10px
+    display: grid;
+    /* Esto crea 3 columnas que se adaptan al espacio disponible */
+    grid-template-columns: repeat(3, 1fr);
+    /* Espacio entre las imágenes */
+    gap: 20px;
 }
 
 .gallery-grid img {
-  width: 100px;
-  height: 250x;
-  object-fit:cover;   /* recorta para que se vea ordenada */
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  transition: transform 0.3s ease;
+    /* Esto es lo que hace que las imágenes sean más altas */
+    height: 350px; 
+    /* Esto asegura que la imagen ocupe todo el ancho de su columna */
+    width: 100%;
+    /* Mantiene la proporción de la imagen para que no se vea estirada */
+    object-fit: cover;
+    /* Mantiene los bordes redondeados */
+    border-radius: 10px;
+    /* Y la sombra para que se vea bien */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 .gallery-grid img:hover {
