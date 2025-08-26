@@ -5,10 +5,10 @@
 
 /* ===== Variables ===== */
 :root {
-  --lila: #d39ed3;
-  --rosado: #fdb4d0;
-  --rosa-intenso: #ff9bc0;
-  --azul: #a4d1f8;
+  --lila: #e289de;
+  --rosado: #ffa6c8;
+  --rosa-intenso: #ff93bb;
+  --azul: #8dc6f8;
   --celeste: #a2d2ff;
   --blanco: #000000;
   --texto: #000000;
@@ -201,7 +201,7 @@ section h2 {
 
 .service-card .price {
   font-size: 1.2rem;
-  color: #7b2cbf;
+  color: #a72eb3;
   margin-bottom: 15px;
 }
 
