@@ -25,7 +25,7 @@
 
 body {
   font-family: var(--fuente-principal);
-  background: var(--rosado);
+  background:#ffa6c8;
   color: var(--texto);
   line-height: 1.6;
 }
