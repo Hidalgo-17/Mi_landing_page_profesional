@@ -25,7 +25,7 @@
 
 body {
   font-family: var(--fuente-principal);
-  background-color: #ffb5d1;
+  background-color: #ffc9e4;
   color: var(--texto);
   line-height: 1.6;
 }
@@ -201,7 +201,7 @@ section h2 {
 
 .service-card .price {
   font-size: 1.2rem;
-  color:#ffb5d1;
+  color:#ffc9e4;
   margin-bottom: 15px;
 }
 
