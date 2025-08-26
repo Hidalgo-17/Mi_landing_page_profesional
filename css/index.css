@@ -362,7 +362,7 @@ footer {
   grid-template-columns:repeat(3, 1fr);
   grid: 20px
   margin-top: 50px
-  height: 100px
+  height: 250px
   width: 150px
 
 }
