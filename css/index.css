@@ -369,7 +369,7 @@ footer {
 
 .gallery-grid img {
   width: 30%;
-  height: 100px;
+  height: 200x;
   object-fit:cover;   /* recorta para que se vea ordenada */
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
